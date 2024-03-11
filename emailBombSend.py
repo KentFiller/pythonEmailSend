@@ -51,3 +51,20 @@ with smtplib.SMTP_SSL('smtp.gmail.com', 465, context=context) as smtp:
         print(f"Email {i+1} sent")
 
 print("DoS attack simulation completed.")
+
+
+# DISCLAIMER: 
+# This script is intended for educational and simulation purposes only. 
+# It simulates a type of Denial of Service (DoS) attack known as an Email Bomb, 
+# which involves sending a large volume of emails to overwhelm the recipient's inbox, potentially rendering it unusable. 
+# 
+# USAGE WARNING: 
+# Using this script against unauthorized targets or without their explicit consent 
+# may violate laws and regulations. 
+# 
+# RESPONSIBLE USAGE: 
+# Ensure that you have the necessary permissions and authorization before using this script. 
+# Always respect the privacy and rights of others, and use this script only for lawful, ethical, 
+# and simulated testing purposes. 
+# 
+# The author and contributors of this script are not responsible for any misuse or damage caused by its usage. 
