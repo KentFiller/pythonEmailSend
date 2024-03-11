@@ -1,5 +1,9 @@
 <h2>Description</h2>
-This repository serves as a documentation of the steps ive taken to set up email automation using Python, specifically focusing on connecting Python to Gmail's SMTP server. The process involves configuring two-factor authentication (2FA) for added security and generating an app-specific password to authenticate Python with Gmail.
+This repository serves as documentation for me setting up email automation using Python, specifically focusing on connecting Python to Gmail's SMTP server. The process involves configuring two-factor authentication (2FA) for added security and generating an app-specific password to authenticate Python with Gmail.
+</br>
+- The primary objective of this project is to explore email automation techniques via scripting, and then explore the security implications associated with email communication, and then finding out how they are used as an attack vector. 
+</br>
+- It includes the implementation of a cybersecurity attack. For this case, Ive included a modified code that can simulate an Email Bombing attack.
 
 <h2>Languages Used</h2>
 
@@ -8,6 +12,7 @@ This repository serves as a documentation of the steps ive taken to set up email
 <h2>Utilities Used</h2>
 
 - Visual Studio Code Codespaces
+
 
 ---
 
