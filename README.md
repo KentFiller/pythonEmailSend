@@ -104,9 +104,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Enter your sender and receiver emails
-email_sender = 'testemailsender@gmail.com'
+email_sender = 'emailTestSender@gmail.com'
 email_password = os.environ.get("EMAIL_PASS")
-email_receiver = 'testemailreceiver@gmail.com'
+email_receiver = 'emailTestReceiver@gmail.com'
 
 # Your actual email message you want to send
 subject = 'Greetings'
