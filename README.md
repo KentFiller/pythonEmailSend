@@ -105,7 +105,7 @@ load_dotenv()
 
 # Enter your sender and receiver emails
 email_sender = 'emailTestSender@gmail.com'
-email_password = os.environ.get("EMAIL_PASS")
+email_password = os.environ.get("EMAIL_PASS") 
 email_receiver = 'emailTestReceiver@gmail.com'
 
 # Your actual email message you want to send
@@ -141,6 +141,7 @@ Note:  adopted from the code in the youtube video https://www.youtube.com/watch?
 
 - **Loading Environment Variables**: The `load_dotenv()` function loads environment variables from a `.env` file into the script.
    - This allows sensitive information, the email password in this case, to be stored securely outside of the codebase.
+   - Your app password should be placed in the environment variable that you create, in the `.env` file. In my case, im calling upon the variable, named `EMAIL_PASS`, in `os.environ.get("EMAIL_PASS")`
 
 - **Establishing Secure Connection with SSL**: The `ssl.create_default_context()` function creates a secure SSL context for establishing a secure connection with Gmail's SMTP server (`smtp.gmail.com`).
    - SSL (Secure Sockets Layer) is a standard security technology that encrypts data transmitted between the server and the client, ensuring secure communication.
